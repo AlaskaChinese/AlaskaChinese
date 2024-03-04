@@ -1,4 +1,4 @@
-### Hello, I'm Alaska👋
+### 👋 Hello, I'm Alaska.
 An electronic & informational engineer.
 
 ### 🔍 Interest
