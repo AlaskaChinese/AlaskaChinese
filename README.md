@@ -1,5 +1,5 @@
 ### github概览数据
-![Github Stats](https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&theme=ambient_gradient&count_private=true)
+![Github Stats](https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&theme=gradient&count_private=true)
 
 ### github语言数据
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&theme=ambient_gradient&layout=compact)
