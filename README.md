@@ -1,5 +1,3 @@
-### Hi there 👋
-
 ### github概览数据
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&theme=dark&count_private=true)
 
