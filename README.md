@@ -1,8 +1,12 @@
-### github概览数据
-![Github Stats](https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&theme=ambient_gradient&count_private=true)
+### Hello, I'm Alaska👋
+An electronic & informational engineer.
 
-### github语言数据
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&theme=ambient_gradient&layout=compact)
+### 🔍 Interest
+* MCU/FPGA
+* Clang/Verilog
+
+| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&theme=ambient_gradient&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&theme=ambient_gradient&hide_border=true" /></a> |
+| ------------- | ------------- |
 
 <!--
 **AlaskaChinese/AlaskaChinese** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
