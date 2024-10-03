@@ -1,5 +1,5 @@
 ### 👋 Hello, I'm Alaska.
-An electronic & informational engineer.
+A noob electronic & informational engineer.
 
 ### 🔍 Interest
 * MCU/FPGA
