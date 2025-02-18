@@ -3,7 +3,7 @@ An electronic & informational engineer.
 
 ### 🔍 Interest
 * MCU/FPGA
-* Clang/Verilog
+* Clang/Verilog/Chisel
 
 <!--
 ### 🧰 语言工具
