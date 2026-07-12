@@ -1,43 +1,63 @@
-### 👋 Hello, I'm Alaska.
-An electronic & informational engineer.
+<div align="center">
+  
+# 👋 Hi there, I'm Alaska
 
-### 🔍 Interest
-* MCU/FPGA
-* C/C++/Verilog/Chisel
+**Electronic & Information Engineer | Embedded Systems & FPGA Enthusiast**
 
-<!--
-### 🧰 语言工具
+---
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original-wordmark.svg" width="40" height="40"/><img src="https://typora.io/img/favicon-64.png" alt="typora" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" alt="chrome" width="40" height="40"/><img src="https://u.tools/favicon.ico" alt="Utools" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="40" height="40"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" height="40"/>
--->
-
-<!--
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&theme=vue&hide_border=true" alt="AlaskaChinese's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&theme=vue&hide_border=true" /></a> |
-| ------------- | ------------- |
--->
-
-### 🦚 B站
-
-<details open>
-<summary>fold</summary>
-<!--<div align="center">-->
-
-[![](https://stats.justsong.cn/api/bilibili/?id=262898832)](https://space.bilibili.com/262898832)<!--[![](https://stats.justsong.cn/api/zhihu?username=?)](https://www.zhihu.com/people/?)-->
 </div>
 
-</details>
+### 👨‍💻 About Me
 
-<!--
-**AlaskaChinese/AlaskaChinese** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am passionate about bridging the gap between hardware and software. My primary focus lies in digital system design, embedded development, and signal processing. I enjoy diving deep into the hardware level to build efficient, robust systems.
 
-Here are some ideas to get you started:
+- 🔭 **Currently focusing on:** Driver development, FPGA-based digital baseband systems, and pure PL-side implementations.
+- 🌱 **Continuously exploring:** Advanced ROS architectures, MCU/FPGA co-design, and hardware acceleration.
+- 💬 **Ask me about:** `C/C++`, `Verilog`, `FPGA/Zynq`, `ROS`, or embedded Linux.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Tech Stack
+
+**Languages & Hardware Description**
+<p>
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Verilog-175591?style=for-the-badge&logo=verilog&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chisel-000000?style=for-the-badge&logo=scala&logoColor=white" />
+</p>
+
+**Platforms & Tools**
+<p>
+  <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+### 📊 Stats & Socials
+
+<table align="center" style="border: none; background-color: transparent;">
+  <tr style="border: none; background-color: transparent;">
+    <td align="center" width="50%" style="border: none; background-color: transparent;">
+      <a href="https://github.com/AlaskaChinese">
+        <img src="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&theme=vue&hide_border=true&bg_color=00000000" alt="GitHub Stats" />
+      </a>
+    </td>
+    <td align="center" width="50%" style="border: none; background-color: transparent;">
+      <a href="https://space.bilibili.com/262898832">
+        <img src="https://stats.justsong.cn/api/bilibili/?id=262898832&theme=vue" alt="Bilibili Stats" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/AlaskaChinese">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&theme=vue&hide_border=true&bg_color=00000000" alt="Top Languages" />
+  </a>
+</p>
