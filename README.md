@@ -10,11 +10,10 @@
 
 ### 👨‍💻 About Me
 
-I specialize in the research and development of **UAV (Unmanned Aerial Vehicle) and UGV (Unmanned Ground Vehicle) swarm systems**. My engineering approach spans across the entire robotics stack—from ROS-based high-level swarm coordination algorithms down to MCU control and FPGA-based hardware acceleration. 
+I specialize in the research and development of **UAV (Unmanned Aerial Vehicle) and UGV (Unmanned Ground Vehicle) swarm systems**.
 
-- 🔭 **Currently focusing on:** Multi-agent swarm coordination, autonomous navigation, and hardware-accelerated algorithms on Zynq platforms.
-- 🌱 **Deep diving into:** Robust digital baseband system design for UAV communication and pure PL-side digital system implementations.
-- 💬 **Ask me about:** `ROS`, `C/C++`, `Verilog`, `Chisel`, or embedded systems.
+- 🌱 **Deep diving into:** Multi-agent Swarm Collaboration, Reinforcement Learning-based Multi-agent Swarms and Factor Graph-Based Multi-agent.
+- 💬 **Ask me about:** `ROS`, `Python`, `C/C++`, `Verilog`, `Chisel`, or embedded systems.
 
 ---
 
