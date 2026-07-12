@@ -52,5 +52,3 @@ I specialize in the research and development of **UAV (Unmanned Aerial Vehicle) 
 <a href="https://space.bilibili.com/262898832">
   <img src="https://stats.justsong.cn/api/bilibili/?id=262898832&theme=vue" alt="Bilibili Stats" />
 </a>
-
-*(Note: Bilibili stats card is maintained by a domestic API and should load reliably).*
