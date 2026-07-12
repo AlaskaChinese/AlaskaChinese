@@ -38,16 +38,6 @@ I specialize in the research and development of **UAV (Unmanned Aerial Vehicle) 
 
 ---
 
-### 🚀 Featured Projects
-
-* **UAV Image Transmission Baseband System** * Designed a digital baseband using QPSK modulation and Costas loop synchronization.
-    * Implemented entirely on the PL side of a Zynq SoC for high-reliability drone communication.
-* **Smart Tracking UGV Platform**
-    * Developed a tracking ground vehicle integrating ultrasonic and infrared sensors.
-    * Utilized L298N drivers and custom sensor fusion logic for responsive environmental tracking.
-
----
-
 ### 🦚 Connect with Me
 
 <a href="https://space.bilibili.com/262898832">
