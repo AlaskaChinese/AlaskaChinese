@@ -41,23 +41,25 @@ I specialize in the research and development of **UAV (Unmanned Aerial Vehicle) 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true" />
-    <img height="180" alt="Alaska's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/stats-light.svg" />
+    <img width="495" alt="Alaska's GitHub Stats" src="./assets/profile/stats-light.svg" />
   </picture>
+
+  <br />
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&langs_count=8&hide_border=true&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&langs_count=8&hide_border=true" />
-    <img height="180" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&langs_count=8&hide_border=true" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile/languages-light.svg" />
+    <img width="495" alt="Most Used Languages" src="./assets/profile/languages-light.svg" />
   </picture>
-</div>
 
-<div align="center">
+  <br />
+
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AlaskaChinese&hide_border=true&theme=github-dark-blue" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AlaskaChinese&hide_border=true" />
-    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AlaskaChinese&hide_border=true" />
+    <img width="495" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AlaskaChinese&hide_border=true" />
   </picture>
 </div>
 
