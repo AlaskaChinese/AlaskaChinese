@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import datetime as dt
 import hashlib
 import html
 import json
+import math
 import os
-import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -57,13 +56,20 @@ def api_json(path: str, params: dict | None = None):
         return json.load(resp)
 
 
-def safe_total(path: str, q: str):
-    try:
-        data = api_json(path, {"q": q, "per_page": 1})
-        return int(data.get("total_count", 0))
-    except Exception as exc:
-        print(f"warning: search failed for {q!r}: {exc}")
-        return None
+def graphql(query: str, variables: dict):
+    if not TOKEN:
+        raise RuntimeError("GITHUB_TOKEN is required for GraphQL stats")
+    payload = json.dumps({"query": query, "variables": variables}).encode("utf-8")
+    headers = dict(HEADERS)
+    headers["Content-Type"] = "application/json"
+    req = urllib.request.Request(
+        API + "/graphql", data=payload, headers=headers, method="POST"
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.load(resp)
+    if data.get("errors"):
+        raise RuntimeError(data["errors"])
+    return data["data"]
 
 
 def list_repositories():
@@ -81,6 +87,38 @@ def list_repositories():
     return repos
 
 
+def get_core_stats():
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        commits: contributionsCollection {
+          totalCommitContributions
+        }
+        reviews: contributionsCollection {
+          totalPullRequestReviewContributions
+        }
+        pullRequests(first: 1) {
+          totalCount
+        }
+        issues(first: 1) {
+          totalCount
+        }
+        followers {
+          totalCount
+        }
+      }
+    }
+    """
+    user = graphql(query, {"login": USERNAME})["user"]
+    return {
+        "commits_last_year": int(user["commits"]["totalCommitContributions"]),
+        "reviews": int(user["reviews"]["totalPullRequestReviewContributions"]),
+        "prs": int(user["pullRequests"]["totalCount"]),
+        "issues": int(user["issues"]["totalCount"]),
+        "followers": int(user["followers"]["totalCount"]),
+    }
+
+
 def get_languages(repos):
     totals = Counter()
     for repo in repos:
@@ -95,9 +133,34 @@ def get_languages(repos):
     return totals
 
 
+def calculate_rank(stats: dict):
+    # Mirrors github-readme-stats/src/calculateRank.js with include_all_commits=false.
+    def exponential_cdf(x: float) -> float:
+        return 1 - 2 ** (-x)
+
+    def log_normal_cdf(x: float) -> float:
+        return x / (1 + x)
+
+    weighted = (
+        2 * exponential_cdf(stats["commits_last_year"] / 250)
+        + 3 * exponential_cdf(stats["prs"] / 50)
+        + 1 * exponential_cdf(stats["issues"] / 25)
+        + 1 * exponential_cdf(stats["reviews"] / 2)
+        + 4 * log_normal_cdf(stats["stars"] / 50)
+        + 1 * log_normal_cdf(stats["followers"] / 10)
+    )
+    percentile = (1 - weighted / 12) * 100
+    thresholds = [1, 12.5, 25, 37.5, 50, 62.5, 75, 87.5, 100]
+    levels = ["S", "A+", "A", "A-", "B+", "B", "B-", "C+", "C"]
+    level = levels[-1]
+    for threshold, candidate in zip(thresholds, levels):
+        if percentile <= threshold:
+            level = candidate
+            break
+    return {"level": level, "percentile": percentile}
+
+
 def fmt(value):
-    if value is None:
-        return "—"
     value = int(value)
     if value >= 1_000_000:
         return f"{value / 1_000_000:.1f}m"
@@ -117,6 +180,7 @@ def theme(name: str):
             "text": "#c9d1d9",
             "muted": "#8b949e",
             "track": "#21262d",
+            "rank": "#58a6ff",
         }
     return {
         "bg": "#ffffff",
@@ -125,6 +189,7 @@ def theme(name: str):
         "text": "#24292f",
         "muted": "#57606a",
         "track": "#eaeef2",
+        "rank": "#0969da",
     }
 
 
@@ -147,12 +212,26 @@ def stats_svg(stats: dict, theme_name: str):
         ("Total Issues", stats["issues"]),
         ("Public Repositories", stats["repos"]),
     ]
+    rank = stats["rank"]
     out = [svg_open(width, height, p)]
     out.append(f'<text x="24" y="36" font-size="20" font-weight="700" fill="{p["title"]}">{html.escape(USERNAME)}\'s GitHub Stats</text>')
     for i, (label, value) in enumerate(rows):
         y = 72 + i * 28
-        out.append(f'<text x="28" y="{y}" font-size="14" font-weight="600" fill="{p["text"]}">{html.escape(label)}:</text>')
-        out.append(f'<text x="492" y="{y}" text-anchor="end" font-size="14" font-weight="700" fill="{p["text"]}">{fmt(value)}</text>')
+        out.append(f'<text x="28" y="{y}" font-size="13" font-weight="600" fill="{p["text"]}">{html.escape(label)}:</text>')
+        out.append(f'<text x="330" y="{y}" text-anchor="end" font-size="13" font-weight="700" fill="{p["text"]}">{fmt(value)}</text>')
+
+    cx, cy, r = 430, 124, 44
+    circumference = 2 * math.pi * r
+    completion = max(0.0, min(100.0, 100.0 - rank["percentile"]))
+    dash = circumference * completion / 100
+    gap = circumference - dash
+    out.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{p["track"]}" stroke-width="8"/>')
+    out.append(
+        f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{p["rank"]}" stroke-width="8" '
+        f'stroke-linecap="round" stroke-dasharray="{dash:.2f} {gap:.2f}" transform="rotate(-90 {cx} {cy})"/>'
+    )
+    out.append(f'<text x="{cx}" y="{cy+8}" text-anchor="middle" font-size="28" font-weight="800" fill="{p["text"]}">{html.escape(rank["level"])}</text>')
+    out.append(f'<text x="{cx}" y="{cy+70}" text-anchor="middle" font-size="11" fill="{p["muted"]}">Rank · top {rank["percentile"]:.1f}%</text>')
     out.append("</svg>")
     return "\n".join(out)
 
@@ -197,15 +276,13 @@ def languages_svg(languages: Counter, theme_name: str):
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     repos = list_repositories()
-    stars = sum(int(repo.get("stargazers_count", 0)) for repo in repos if not repo.get("fork"))
-    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=365)).date().isoformat()
+    core = get_core_stats()
     stats = {
-        "stars": stars,
-        "commits_last_year": safe_total("/search/commits", f"author:{USERNAME} committer-date:>={since}"),
-        "prs": safe_total("/search/issues", f"author:{USERNAME} type:pr"),
-        "issues": safe_total("/search/issues", f"author:{USERNAME} type:issue"),
+        **core,
+        "stars": sum(int(repo.get("stargazers_count", 0)) for repo in repos if not repo.get("fork")),
         "repos": sum(1 for repo in repos if not repo.get("fork")),
     }
+    stats["rank"] = calculate_rank(stats)
     languages = get_languages(repos)
 
     for mode in ("light", "dark"):
