@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="218" viewBox="0 0 520 218" role="img">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+</style>
+<rect x="0.5" y="0.5" width="519" height="217" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+
+<text x="24" y="36" font-size="20" font-weight="700" fill="#0969da">AlaskaChinese's GitHub Stats</text>
+<text x="28" y="72" font-size="14" font-weight="600" fill="#24292f">Total Stars Earned:</text>
+<text x="492" y="72" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">10</text>
+<text x="28" y="100" font-size="14" font-weight="600" fill="#24292f">Total Commits (last year):</text>
+<text x="492" y="100" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">111</text>
+<text x="28" y="128" font-size="14" font-weight="600" fill="#24292f">Total PRs:</text>
+<text x="492" y="128" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">16</text>
+<text x="28" y="156" font-size="14" font-weight="600" fill="#24292f">Total Issues:</text>
+<text x="492" y="156" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">8</text>
+<text x="28" y="184" font-size="14" font-weight="600" fill="#24292f">Public Repositories:</text>
+<text x="492" y="184" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">11</text>
+</svg>
