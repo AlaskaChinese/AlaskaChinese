@@ -5,14 +5,18 @@
 <rect x="0.5" y="0.5" width="519" height="217" rx="10" fill="#ffffff" stroke="#d0d7de"/>
 
 <text x="24" y="36" font-size="20" font-weight="700" fill="#0969da">AlaskaChinese's GitHub Stats</text>
-<text x="28" y="72" font-size="14" font-weight="600" fill="#24292f">Total Stars Earned:</text>
-<text x="492" y="72" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">10</text>
-<text x="28" y="100" font-size="14" font-weight="600" fill="#24292f">Total Commits (last year):</text>
-<text x="492" y="100" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">111</text>
-<text x="28" y="128" font-size="14" font-weight="600" fill="#24292f">Total PRs:</text>
-<text x="492" y="128" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">16</text>
-<text x="28" y="156" font-size="14" font-weight="600" fill="#24292f">Total Issues:</text>
-<text x="492" y="156" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">8</text>
-<text x="28" y="184" font-size="14" font-weight="600" fill="#24292f">Public Repositories:</text>
-<text x="492" y="184" text-anchor="end" font-size="14" font-weight="700" fill="#24292f">11</text>
+<text x="28" y="72" font-size="13" font-weight="600" fill="#24292f">Total Stars Earned:</text>
+<text x="330" y="72" text-anchor="end" font-size="13" font-weight="700" fill="#24292f">10</text>
+<text x="28" y="100" font-size="13" font-weight="600" fill="#24292f">Total Commits (last year):</text>
+<text x="330" y="100" text-anchor="end" font-size="13" font-weight="700" fill="#24292f">98</text>
+<text x="28" y="128" font-size="13" font-weight="600" fill="#24292f">Total PRs:</text>
+<text x="330" y="128" text-anchor="end" font-size="13" font-weight="700" fill="#24292f">16</text>
+<text x="28" y="156" font-size="13" font-weight="600" fill="#24292f">Total Issues:</text>
+<text x="330" y="156" text-anchor="end" font-size="13" font-weight="700" fill="#24292f">8</text>
+<text x="28" y="184" font-size="13" font-weight="600" fill="#24292f">Public Repositories:</text>
+<text x="330" y="184" text-anchor="end" font-size="13" font-weight="700" fill="#24292f">11</text>
+<circle cx="430" cy="124" r="44" fill="none" stroke="#eaeef2" stroke-width="8"/>
+<circle cx="430" cy="124" r="44" fill="none" stroke="#0969da" stroke-width="8" stroke-linecap="round" stroke-dasharray="56.17 220.29" transform="rotate(-90 430 124)"/>
+<text x="430" y="132" text-anchor="middle" font-size="28" font-weight="800" fill="#24292f">C+</text>
+<text x="430" y="194" text-anchor="middle" font-size="11" fill="#57606a">Rank · top 79.7%</text>
 </svg>
