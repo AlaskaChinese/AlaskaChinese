@@ -37,6 +37,32 @@ I specialize in the research and development of **UAV (Unmanned Aerial Vehicle) 
 
 ---
 
+### 📊 GitHub Stats
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true" />
+    <img height="180" alt="Alaska's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=AlaskaChinese&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true" />
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&langs_count=8&hide_border=true&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&langs_count=8&hide_border=true" />
+    <img height="180" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlaskaChinese&layout=compact&langs_count=8&hide_border=true" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AlaskaChinese&hide_border=true&theme=github-dark-blue" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=AlaskaChinese&hide_border=true" />
+    <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=AlaskaChinese&hide_border=true" />
+  </picture>
+</div>
+
+---
+
 ### 🦚 Connect with Me
 
 <a href="https://space.bilibili.com/262898832">
