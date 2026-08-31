@@ -12,7 +12,7 @@
 
 I specialize in the research and development of **UAV (Unmanned Aerial Vehicle) and UGV (Unmanned Ground Vehicle) swarm systems**.
 
-- 🌱 **Deep diving into:** Multi-agent Swarm Collaboration, Reinforcement Learning-based Multi-agent Swarms and Factor Graph-Based Multi-agent.
+- 🌱 **Deep diving into:** Multi-agent Swarm Collaboration, Reinforcement Learning-based Swarm Control and Factor Graph-Based Collaborative Positioning.
 - 💬 **Ask me about:** `ROS`, `Python`, `C/C++`, `Verilog`, `Chisel`, or embedded systems.
 
 ---
