@@ -6,12 +6,12 @@
 
 <text x="24" y="36" font-size="20" font-weight="700" fill="#58a6ff">Most Used Languages</text>
 <rect x="24.0" y="58" width="472.0" height="12" rx="6" fill="#21262d"/>
-<rect x="24.00" y="58" width="444.99" height="12" fill="#555555"/>
-<rect x="468.99" y="58" width="6.80" height="12" fill="#2d1979"/>
-<rect x="475.79" y="58" width="6.11" height="12" fill="#427819"/>
-<rect x="481.90" y="58" width="3.30" height="12" fill="#DA5B0B"/>
-<rect x="485.20" y="58" width="3.18" height="12" fill="#f34b7d"/>
-<rect x="488.38" y="58" width="2.19" height="12" fill="#3572A5"/>
+<rect x="24.00" y="58" width="444.97" height="12" fill="#555555"/>
+<rect x="468.97" y="58" width="6.80" height="12" fill="#2d1979"/>
+<rect x="475.77" y="58" width="6.11" height="12" fill="#427819"/>
+<rect x="481.88" y="58" width="3.30" height="12" fill="#DA5B0B"/>
+<rect x="485.18" y="58" width="3.18" height="12" fill="#f34b7d"/>
+<rect x="488.36" y="58" width="2.21" height="12" fill="#3572A5"/>
 <circle cx="30" cy="103" r="6" fill="#555555"/>
 <text x="44" y="108" font-size="14" fill="#c9d1d9">C 94.3%</text>
 <circle cx="288" cy="103" r="6" fill="#2d1979"/>
