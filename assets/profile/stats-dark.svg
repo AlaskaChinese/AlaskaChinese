@@ -16,7 +16,7 @@
 <text x="28" y="184" font-size="13" font-weight="600" fill="#c9d1d9">Public Repositories:</text>
 <text x="330" y="184" text-anchor="end" font-size="13" font-weight="700" fill="#c9d1d9">12</text>
 <circle cx="430" cy="124" r="44" fill="none" stroke="#21262d" stroke-width="8"/>
-<circle cx="430" cy="124" r="44" fill="none" stroke="#58a6ff" stroke-width="8" stroke-linecap="round" stroke-dasharray="61.02 215.44" transform="rotate(-90 430 124)"/>
+<circle cx="430" cy="124" r="44" fill="none" stroke="#58a6ff" stroke-width="8" stroke-linecap="round" stroke-dasharray="60.42 216.04" transform="rotate(-90 430 124)"/>
 <text x="430" y="132" text-anchor="middle" font-size="28" font-weight="800" fill="#c9d1d9">C+</text>
-<text x="430" y="194" text-anchor="middle" font-size="11" fill="#8b949e">Rank · top 77.9%</text>
+<text x="430" y="194" text-anchor="middle" font-size="11" fill="#8b949e">Rank · top 78.1%</text>
 </svg>
