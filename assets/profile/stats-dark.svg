@@ -14,7 +14,7 @@
 <text x="28" y="156" font-size="13" font-weight="600" fill="#c9d1d9">Total Issues:</text>
 <text x="330" y="156" text-anchor="end" font-size="13" font-weight="700" fill="#c9d1d9">9</text>
 <text x="28" y="184" font-size="13" font-weight="600" fill="#c9d1d9">Public Repositories:</text>
-<text x="330" y="184" text-anchor="end" font-size="13" font-weight="700" fill="#c9d1d9">10</text>
+<text x="330" y="184" text-anchor="end" font-size="13" font-weight="700" fill="#c9d1d9">11</text>
 <circle cx="430" cy="124" r="44" fill="none" stroke="#21262d" stroke-width="8"/>
 <circle cx="430" cy="124" r="44" fill="none" stroke="#58a6ff" stroke-width="8" stroke-linecap="round" stroke-dasharray="58.36 218.10" transform="rotate(-90 430 124)"/>
 <text x="430" y="132" text-anchor="middle" font-size="28" font-weight="800" fill="#c9d1d9">C+</text>
