@@ -6,23 +6,23 @@
 
 <text x="24" y="36" font-size="20" font-weight="700" fill="#0969da">Most Used Languages</text>
 <rect x="24.0" y="58" width="472.0" height="12" rx="6" fill="#eaeef2"/>
-<rect x="24.00" y="58" width="445.03" height="12" fill="#555555"/>
-<rect x="469.03" y="58" width="6.80" height="12" fill="#2d1979"/>
-<rect x="475.83" y="58" width="6.11" height="12" fill="#427819"/>
-<rect x="481.95" y="58" width="3.30" height="12" fill="#DA5B0B"/>
-<rect x="485.24" y="58" width="3.18" height="12" fill="#f34b7d"/>
-<rect x="488.42" y="58" width="2.21" height="12" fill="#3572A5"/>
+<rect x="24.00" y="58" width="440.31" height="12" fill="#555555"/>
+<rect x="464.31" y="58" width="6.73" height="12" fill="#2d1979"/>
+<rect x="471.04" y="58" width="6.05" height="12" fill="#427819"/>
+<rect x="477.09" y="58" width="4.48" height="12" fill="#3178c6"/>
+<rect x="481.57" y="58" width="3.26" height="12" fill="#DA5B0B"/>
+<rect x="484.83" y="58" width="3.14" height="12" fill="#f34b7d"/>
 <circle cx="30" cy="103" r="6" fill="#555555"/>
-<text x="44" y="108" font-size="14" fill="#24292f">C 94.3%</text>
+<text x="44" y="108" font-size="14" fill="#24292f">C 93.3%</text>
 <circle cx="288" cy="103" r="6" fill="#2d1979"/>
 <text x="302" y="108" font-size="14" fill="#24292f">Assembly 1.4%</text>
 <circle cx="30" cy="145" r="6" fill="#427819"/>
 <text x="44" y="150" font-size="14" fill="#24292f">Makefile 1.3%</text>
-<circle cx="288" cy="145" r="6" fill="#DA5B0B"/>
-<text x="302" y="150" font-size="14" fill="#24292f">Jupyter Notebook 0.7%</text>
-<circle cx="30" cy="187" r="6" fill="#f34b7d"/>
-<text x="44" y="192" font-size="14" fill="#24292f">C++ 0.7%</text>
-<circle cx="288" cy="187" r="6" fill="#3572A5"/>
-<text x="302" y="192" font-size="14" fill="#24292f">Python 0.5%</text>
+<circle cx="288" cy="145" r="6" fill="#3178c6"/>
+<text x="302" y="150" font-size="14" fill="#24292f">TypeScript 0.9%</text>
+<circle cx="30" cy="187" r="6" fill="#DA5B0B"/>
+<text x="44" y="192" font-size="14" fill="#24292f">Jupyter Notebook 0.7%</text>
+<circle cx="288" cy="187" r="6" fill="#f34b7d"/>
+<text x="302" y="192" font-size="14" fill="#24292f">C++ 0.7%</text>
 <text x="24" y="228" font-size="11" fill="#57606a">Calculated from public, non-fork repositories using GitHub Linguist data.</text>
 </svg>
